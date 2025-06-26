@@ -1,0 +1,52 @@
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #4ECCA3;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  margin:auto;
+
+}
+
+ p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+
+
+.dice {
+
+  display: inline-block;
+  margin: 30px;
+  
+}
+
+button {
+  background-color: #879ab9;
+  font-size: 2rem;
+  display: block;
+  height: 100px;
+  border-radius: 10px; /* Colțuri rotunjite */
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Umbra butonului */
+  transition: all 0.3s ease; /* Animație la hover */
+  margin: 20px auto
+}
+
+#refreshButton:hover {
+  background-color: #e5533f; /* Culoare mai închisă la hover */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Umbra mai evidentă */
+  transform: scale(1.05); /* Efect de mărire */
+}
